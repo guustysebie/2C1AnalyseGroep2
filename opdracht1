@@ -1,0 +1,20 @@
+UC registreer als aanbieder
+primaire actor:  gebruiker
+preconditie: gebruiker heeft op de link gratis registreren geklikt
+postconditie: gebruiker is geregistreerd en heeft een bevestigingse-mail ontvangen.GUI
+NV
+1. Gebruiker kiest voor vrager
+2. Systeem toont registratiepaneel voor vrager
+3. Gebruiker geeft bedrijfsnaam, sector, bedrijfsgrootte, naam, e-mail adres en (herhaal) paswoord door
+4. Systeem valideert de gegevens
+5. Systeem bevestigt het ontvangen van de gegevens
+6. Systeem stuurt een bevestigingsmail
+AV
+     1a. Gebruiker kiest voor aanbieder. 
+     4a. Email ongeldig
+     4a1. Het e-mail adres is ongeldig.
+     4a2. Keer terug naar stap 3
+     4b1. Paswoord en herhaal paswoord zijn niet gelijk aan elkaar
+     4b2. Keer terug naar stap 3
+
+Op te klaren punten: Wat gebeurt er als de gebruiker voor aanbieder kiest?
